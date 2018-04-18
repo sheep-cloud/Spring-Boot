@@ -4,8 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.atguigu</groupId>
-    <artifactId>
-        -profile</artifactId>
+    <artifactId>spring-boot-02-config-profile</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
