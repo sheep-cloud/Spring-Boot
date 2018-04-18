@@ -1,0 +1,11 @@
+# 开启SpringBoot的debug模式
+server:
+  port: 8080
+
+spring:
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+debug: true
