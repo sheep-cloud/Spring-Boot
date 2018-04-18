@@ -2,12 +2,14 @@ package com.atguigu.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ImportResource;
 
 /**
  * Spring Boot 启动类
  *
  * @author colg
  */
+//@ImportResource(locations = {"classpath:beans.xml"})
 @SpringBootApplication
 public class SpringBoot02ConfigApplication {
 

@@ -1,13 +1,13 @@
 server:
-  port: 8081
+  port: 8082
 
 person:
-  age: 18
+  age: ${random.int(20,30)}
   boss: false
   birth: 2017/12/12
   maps: {k1: v1, k2: 12}
   lists: [list, zhaoliu]
   dog:
     name: 小狗
-    age: 2
+    age: ${person.age>20:3}
   last-name: zhangsan
