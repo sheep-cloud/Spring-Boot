@@ -11,10 +11,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author: colg
  */
 @SpringBootApplication
-public class HelloWorldMainApplication {
+public class SpringBoot01HelloworldApplication {
 
     public static void main(String[] args) {
         // Spring 应用启动
-        SpringApplication.run(HelloWorldMainApplication.class, args);
+        SpringApplication.run(SpringBoot01HelloworldApplication.class, args);
     }
 }
