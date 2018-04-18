@@ -1,0 +1,21 @@
+# Document 1 文档块
+server:
+  port: 8081
+spring:
+  profiles:
+    active: dev
+
+
+---
+# Document 2 文档块
+server:
+  port: 8085
+spring:
+  profiles: dev
+
+---
+# Document 3 文档块
+server:
+  port: 8086
+spring:
+  profiles: prod
