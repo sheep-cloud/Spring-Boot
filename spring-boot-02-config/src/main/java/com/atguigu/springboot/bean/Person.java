@@ -49,7 +49,6 @@ public class Person {
     private Integer age;
 //    @Value("true")
     private Boolean boss;
-//    @Value("${person.birth}")
     private Date birth;
 
     private Map<String, Object> maps;
